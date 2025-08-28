@@ -1,0 +1,102 @@
+.about {
+    padding: 100px 0;
+ background: #23448a;
+    background: linear-gradient(90deg, rgb(30, 56, 112) 14%, rgb(12, 77, 123) 27%, rgb(27, 78, 129) 54%, rgb(15, 48, 126) 77%, rgba(41, 72, 135, 1) 92%);
+    color: white;
+}
+
+.about .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_me h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about_me p {
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.8;
+    white-space: normal;
+}
+
+.text strong {
+    display: inline-block;
+    margin: 10px 0 6px;
+    font-size: 16px;
+}
+
+.skils h1 {
+    font-size: 28px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.skils_box {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skils_card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.skils_card i {
+    font-size: 30px;
+}
+
+#html {
+    color: #F06529;
+}
+
+#css {
+    color: #2965F1;
+}
+
+#js {
+    color: #F7DF1E;
+}
+
+#react {
+    color: #61DAFB;
+}
+
+#git {
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .skils_box {
+        margin: 10px;
+    }
+}

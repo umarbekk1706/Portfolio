@@ -1,0 +1,19 @@
+.projects {
+    padding: 4rem 0;
+    color: white;
+   background: #233c71;
+    background: linear-gradient(90deg, rgb(31, 61, 124) 14%, rgb(15, 79, 124) 27%, rgb(24, 85, 146) 54%, rgb(9, 47, 134) 77%, rgba(41, 72, 135, 1) 92%); 
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
