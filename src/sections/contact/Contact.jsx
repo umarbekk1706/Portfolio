@@ -9,7 +9,7 @@ function Contact() {
       <div className={styles.contact_form}>
         <h3>Contact with me</h3>
         <div className={styles.links}>
-          <p><a href="https://mail.google.com/mail/u/0/#inbox" target="blank" rel="noopener noreferrer"><i className="fa-solid fa-envelope"></i>Email</a></p>
+          <p><a href="mailto:umarbekrashidov1706@gmail.com" target="blank" rel="noopener noreferrer"><i className="fa-solid fa-envelope"></i>Email</a></p>
           <p><a href="https://github.com/umarbekk1706" target="blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i>GitHub</a></p>
         </div>
       </div>
