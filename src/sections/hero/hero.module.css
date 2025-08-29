@@ -19,10 +19,9 @@
 }
 
 .hero_img {
-      font-size: 6rem;
-      padding: 100px;
-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-border-radius: 100%;
+width: 250px;
+height: 300px;
+border-radius: 50%;
 }
 
 

@@ -1,4 +1,5 @@
 import styles from "./hero.module.css";
+import portfolio_img from "../../../public/images/portfolio_img.jpg";
 
 function Hero() {
   return (
@@ -9,7 +10,7 @@ function Hero() {
           <h2>Frontend Developer</h2>
           <p>I build websites using HTML, CSS, JavaScript, and React. My websites are responsive and work with API</p>
         </div>
-          <h1 className={styles.hero_img}>👨🏻‍💻</h1>
+          <img src={portfolio_img} alt="portfolio img"  className={styles.hero_img}/>
         </div>
          
      
